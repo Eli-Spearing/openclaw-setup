@@ -11,12 +11,18 @@ One command to install everything you need to run [OpenClaw](https://docs.opencl
 | **Node.js** | Required runtime for OpenClaw |
 | **OpenClaw** | Your AI assistant |
 
-## Install (Mac or Linux)
+## Install
 
+### Mac / Linux
 Open Terminal and paste:
-
 ```bash
-curl -fsSL https://raw.githubusercontent.com/elispearing/openclaw-setup/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Eli-Spearing/openclaw-setup/main/install.sh | bash
+```
+
+### Windows
+Open PowerShell and paste:
+```powershell
+irm https://raw.githubusercontent.com/Eli-Spearing/openclaw-setup/main/install.ps1 | iex
 ```
 
 That's it. One command.
